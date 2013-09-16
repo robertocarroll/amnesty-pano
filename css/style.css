@@ -1,0 +1,464 @@
+
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+	ol, ul {
+		list-style: none; }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+
+
+/* #Colours
+================================================== */
+
+/*
+ * #FFFF00		Yellow 
+ * #D8D8D8		Grey
+ * #000000		Black
+
+ */
+
+/*
+	Key
+ * #009a66		Green 
+ * #34cc99		Light Green
+ * #ff6634		Orange
+ * #cc0033		Red
+ * #cc6698		Pink
+
+ */
+
+
+
+/* #Basic Styles
+================================================== */
+	
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html { height: 100% }
+	
+	body {
+		font: 1em/150% "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #333;
+		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		-webkit-text-size-adjust: 100%;
+		 height: 100%; 
+		 margin: 0; 
+		 padding: 0 
+		
+ }
+
+
+#wrap {
+	width:540px;
+	margin:0 auto;
+	background:#fff;
+}
+
+#container {z-index:1;}
+
+/* #Texts
+================================================== */
+
+.disclaimertext {	
+	width:420px;
+	margin-top:-10px;
+	float:left;
+} 
+
+.disclaimertext p {	
+	font-size: 11px;
+	line-height: 12px;
+	color: #666666;
+} 
+
+.disclaimertext p span {	
+font-weight:bold;
+} 
+
+.task-bg-color {
+    background-color: #FFFF00 !important;
+    color:#000000 !important;     
+}​
+
+
+#headerright {color:red !important; }
+
+
+
+/* #Google info window
+================================================== */
+
+.popupwrap {
+	height: 500px; 
+	overflow:auto;
+	padding: 20px;
+}
+
+.popupwrap h2 { 
+	font-size: 14px; 
+	line-height: 21px; 
+	margin: 8px 0px; 
+	font-weight: bold; 
+	color: #ffffff;
+}
+
+.popupwrap h3 { 
+	font-size: 12px; 
+	line-height: 19px; 
+	margin: 8px 0px; 
+	font-weight: bold; 
+	color: #ffffff;
+}
+
+.popupwrap p {
+	font-size: 12px; 
+	line-height: 19px;
+	color: #ffffff;
+	margin-bottom: 8px;
+}
+
+.imageleft {
+	width: 208px;
+}
+
+.titleright {	
+	position: relative; 
+	padding-left: 228px;
+}
+
+.titleright-content {
+	position: absolute; 
+    bottom: 0; 
+}
+
+.maintext {margin-top:20px;}
+
+
+
+
+/* #Links
+================================================== */
+
+	a:link { 
+	color: #000;
+	text-decoration: underline;
+	outline: 0; 
+	}
+	
+	a:visited { 
+	color: #333;
+	}
+	
+	a:hover { 
+	background: none repeat scroll 0 0 #FFFF00;
+    text-decoration: none; color: #333;
+	}
+	
+	a:active { 
+	color: #333333;
+	}
+
+	a:focus { color: #000; }
+
+
+/* #Header
+================================================== */
+
+header[role="banner"]{
+	border-bottom: 4px solid #000000;
+    
+    }
+
+#logo {float:left; margin: 0; padding: 0; }
+
+#logo img { display:block;}
+
+h1.amnesty {
+    font-size: 16px;
+    line-height: 32px;
+    font-weight:bold;
+    padding-left:10px;
+    float:left;
+}
+
+
+/* #Tabs
+================================================== */
+    
+   	.etabs { margin: 0; padding: 0; }
+    
+    .tab { display: inline-block; zoom:1; 
+    *display:inline; 
+    margin:0px 0 0 0; }
+    
+    .tab a { 
+    background: #ccc;
+    font-size: 11px;  
+    line-height: 32px; 
+    display: block; 
+    padding: 0 10px; 
+    outline: none; 
+    text-decoration:none; 
+    color: #000;
+    border-right: 1px solid #fff;
+    font-weight: bold; }
+    
+    .tab a:hover { background: 
+    none repeat scroll 0 0 #FFFF00;
+    text-decoration: 
+    none; color: #333;
+    
+    }
+    
+     
+    .tab a.active { color: #fff; background: #000;  }
+    
+    .tab-container .panel-container { width:540px; display:block;}
+    
+#video {
+		background: #000000;
+		text-align: center;
+}
+    
+  #video a {
+		color: #FFFF00;
+		font-weight: bold;
+}  
+
+ #video a:hover {
+		color: #000000;
+}  
+
+ #video p {
+		padding:10px;
+}  
+
+.headerleft {float: left;
+    padding-left: 5px;
+    width: 190px;}
+
+
+.clicked {
+  background-color: yellow;
+}
+
+   /* #Key labels 
+================================================== */
+
+#main {
+	border-bottom: 2px solid #000000;
+	display:block;
+	font-size: 0;
+	line-height: 0;
+   }
+
+
+.filter {
+     float:left;
+     width:300px;
+}
+
+
+.filter p {
+	display: inline;
+    font-size: 11px;  
+    text-decoration:none; 
+}
+
+
+
+.tooltip
+{
+    padding:5px 10px;
+}
+
+.tooltip:empty
+{
+    display:none;
+}
+
+.hiddenpanels {	
+position: relative; 
+} 
+
+.moreinfo {
+float:right;
+}
+
+.moreinfo ul {
+margin: 0; 
+padding: 0;
+
+}
+
+.moreinfo ul li {
+display: inline;
+}
+
+.moreinfo a {
+	background: #5c5c5c;
+    font-size: 11px;  
+    line-height: 32px; 
+    padding:9px;
+    text-decoration:none; 
+    color: #ffff00;
+     font-weight: bold; 
+}
+
+.moreinfo a:hover { background: 
+    none repeat scroll 0 0 #FFFF00;
+    text-decoration: 
+    none; color: #333;}
+    
+
+#sidebar {
+		width:540px;
+		background: #666666;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 9001;
+		color: #ffff00;
+}
+
+
+#embed {
+		width:250px;
+		background: #e1e1e1;
+		padding: 10px;
+		position: absolute;
+		top: 381px;
+		left: 0px;
+		z-index: 9002;
+
+}
+
+#embed p {
+   font-size: 14px;
+}
+
+#embed input {width:200px;}
+
+#closeembed {float:right; text-decoration: none;}
+
+#closesidebar {float:right; text-decoration: none;margin-right:10px; color: #ffffff;}
+
+#closesidebar:hover {color: #000000;}
+
+#labels {display: none;
+		padding:0 12px 0 12px;
+		width:258px;
+		background: #666666;
+		position: absolute;
+		top: 0px;
+		left: 274px;
+		z-index: 9002;
+
+}
+
+#close {float:right; text-decoration: none;color: #ffffff;}
+
+#close:hover {color: #000000;}
+
+#labels ul #top {margin-top:20px;}
+
+#labels ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 27px;
+	color: #ffffff;
+}
+
+#labels li {
+	display: block;
+	margin: 0;
+	padding: 0 0 4px 0;
+}
+
+#labels span{
+	display: block;
+	float: left;
+	width:16px;
+	height: 16px;
+	margin: 5px 5px 0 0 ;
+	background: #FFFFFF;
+}
+
+#labels ul p{
+font-size: 12px;
+font-weight: normal;
+line-height: 13px;
+margin-top: -4px;
+}
+
+#labels ul p.indent{
+margin-left:23px;
+}
+
+
+/*
+	Key
+ * #009a66		Green 
+ * #34cc99		Light Green
+ * #ff6634		Orange
+ * #cc0033		Red
+ * #cc6698		Pink
+
+ */
+
+#labels ul #first span{ background: #009a66; border: solid 1px #000000; }
+#labels ul #second span{ background: #34cc99; border: solid 1px #000000; }
+#labels ul #third span{ background: #ff6634; border: solid 1px #000000; }
+#labels ul #fourth span{ background: #cc6698; border: solid 1px #000000; }
+#labels ul #fifth span{ background: #cc0033; border: solid 1px #000000;}
+
+#labels ul #secondtop { padding-bottom:15px;}
+#labels ul #first { border-top: solid 1px #ffffff; padding-top:5px;}
+#labels ul #none { margin-left:23px;margin-top:5px;}
+#labels ul #sixth { padding-bottom:15px;}
+ 
+
+#labels p.smaller {	
+	border-top: solid 1px #ffffff; 
+	padding-top:5px;
+	padding-bottom:20px;
+	font-size: 11px;
+	line-height: 12px;
+	color: #ffffff;
+} 	
+
+
+
+
+
+
+
+
+
+
