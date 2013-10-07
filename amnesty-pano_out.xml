@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="">
+  <view fovmode="0" pannorth="0">
+    <start pan="153" fov="90" tilt="0"/>
+    <min pan="-180" fov="5" tilt="-48.51452491050857"/>
+    <max pan="180" fov="90" tilt="48.51452491050857"/>
+  </view>
+  <userdata title="The people living in the Deep Sea Slum, Nairobi, Kenya" datetime="2012:11:28 12:59:13" description="Nikola Ivanovski with Amnesty International 2012. Designed and developed by We Are Thought Fox." copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+    <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+    <hotspot title="Person 1" target="_self" pan="155.008" skinid="Hotspot 1" url="javascript:callPopup1();" id="Point01" tilt="-10.8576"/>
+    <hotspot title="Person 2" target="_self" pan="102.666" skinid="Hotspot 2" url="javascript:callPopup2();" id="Point02" tilt="-0.312687"/>
+    <hotspot title="" target="_self" pan="59.7427" skinid="Hotspot 3" url="javascript:callPopup3();" id="Point03" tilt="-19.5743"/>
+    <hotspot title="" target="_self" pan="-28.5887" skinid="Hotspot 4" url="javascript:callPopup4();" id="Point04" tilt="-16.7841"/>
+    <hotspot title="" target="_self" pan="-76.3733" skinid="Hotspot 5" url="javascript:callPopup5();" id="Point05" tilt="-1.54587"/>
+    <hotspot title="" target="_self" pan="-102.738" skinid="Hotspot 6" url="javascript:callPopup6();" id="Point06" tilt="5.15955"/>
+  </hotspots>
+  <media>
+    <sound ambientlevel="0" pansize="0" mode="1" loop="-1" field="90" pan="-1" tiltsize="0" id="_background" level="1" tilt="-1">
+      <source url="background-sound.mp3"/>
+    </sound>
+  </media>
+  <input tile0url="html-images/amnesty-pano_o_0.jpg" tile5url="html-images/amnesty-pano_o_5.jpg" tilesize="576" tile4url="html-images/amnesty-pano_o_4.jpg" tile3url="html-images/amnesty-pano_o_3.jpg" tilescale="1.017361111111111" tile2url="html-images/amnesty-pano_o_2.jpg" tile1url="html-images/amnesty-pano_o_1.jpg"/>
+  <altinput tile0url="html-images/amnesty-pano_o_960_0.jpg" screensize="1024" tile5url="html-images/amnesty-pano_o_960_5.jpg" tilesize="960" tile4url="html-images/amnesty-pano_o_960_4.jpg" tile3url="html-images/amnesty-pano_o_960_3.jpg" tilescale="1.017361111111111" tile2url="html-images/amnesty-pano_o_960_2.jpg" tile1url="html-images/amnesty-pano_o_960_1.jpg"/>
+  <altinput tile0url="html-images/amnesty-pano_o_400_0.jpg" screensize="500" tile5url="html-images/amnesty-pano_o_400_5.jpg" tilesize="400" tile4url="html-images/amnesty-pano_o_400_4.jpg" tile3url="html-images/amnesty-pano_o_400_3.jpg" tilescale="1.017361111111111" tile2url="html-images/amnesty-pano_o_400_2.jpg" tile1url="html-images/amnesty-pano_o_400_1.jpg"/>
+  <autorotate speed="0.100" nodedelay="0.00" startloaded="1" returntohorizon="0.000" delay="5.00"/>
+  <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+</panorama>
